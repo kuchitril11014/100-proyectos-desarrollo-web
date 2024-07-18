@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <fieldset style="width: auto; height: 600px;">
+        <legend>
+            <h1>Formulario</h1>
+        </legend>
+        <form action="">
+            <div>
+                <legend>Search</legend>
+                <label for="">Buscar</label>
+                <input type="search">
+
+            </div>
+
+            <div>
+                <label for="">Telefono</label>
+                <input type="tel">
+
+            </div>
+
+            <div>
+                <label for="">Hora</label>
+                <input type="datetime-local">
+
+            </div>
+
+            <div>
+                <label for="">Google</label>
+                <input type="url">
+
+            </div>
+
+            <div>
+                <label for="">Barra de progreso</label>
+                <progress max="100" value="90"></progress>
+            </div>
+            <div>
+                <label for="">Lista de coches</label>
+                <input type="text" list="coches" name="coche">
+
+                <datalist id="coches">
+                    <option value="audi">opcion 1</option>
+                    <option value="mercedes">opcion 2</option>
+                    <option value="vw">opcion 3</option>
+                </datalist>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
